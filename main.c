@@ -58,6 +58,16 @@ for(int L=0;L<8;L++){
   }
 }
   printf("\n\n");
+
+for(int i=0;i<tam;i++){
+  for(int L=0;L<8;L++){
+    for(int C=0;C<4;C++){
+      if(matrix[L][C]==palavra[i]){
+        printf("# %d = %d\n",L+2,C+1);
+      }
+    }
+  }
+}
   
   return 0;
 }
